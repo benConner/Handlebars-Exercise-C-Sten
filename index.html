@@ -8,9 +8,33 @@
   <h1>Here's a random user</h1>
 
 <!-- output div -->
+<div id="userDisplay"></div>
 
 <!-- handlebars script -->
+<script id="userScript" type="text/x-handlebars-template">
+    <div class="user">
+      <h1>{{results.0.name.title}}. {{results.0.name.first}} {{results.0.name.last}}</h1>
+      <h5>{{results.0.location.street}}</h5>
+      <h5>{{results.0.location.city}}, {{results.0.location.state}}</h5>
+      <h5>{{results.0.location.postcode}}</h5>
+      <h5>Email: {{results.0.email}}</h5>
+      <img src="{{results.0.picture.medium}}" alt="">
+    </div>
+</script>
+<!-- <script id="randUserScript" type="text/x-handlebars-template">
+    <div class="user">
+      <h1>{{results.0.name.title}}. {{results.0.name.first}} {{results.0.name.last}}</h1>
+      <h5>{{results.0.location.street}}</h5>
+      <h5>{{results.0.location.city}}, {{results.0.location.state}}</h5>
+      <h5>{{results.0.location.postcode}}</h5>
+      <h5>Email: {{results.0.email}}</h5>
+      <img src="{{results.0.picture.medium}}" alt="">
+    </div>
+</script> -->
 
 <!-- regular javascript scripts -->
+<script type="text/javascript" src="/bower_components/jQuery/dist/jquery.min.js"></script>
+<script type="text/javascript" src="/bower_components/handlebars/handlebars.js"></script>
+<script src="myJavascript.js" type="text/javascript"></script>
 </body>
 </html>
