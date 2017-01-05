@@ -1,0 +1,21 @@
+{
+  "name": "Handlebars-Exercise-C-Sten",
+  "homepage": "https://github.com/nss-day-cohort-17/Handlebars-Exercise-C-Sten",
+  "authors": [
+    "Ben Conner <ben.conner40@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "handlebars": "^4.0.5"
+  }
+}
